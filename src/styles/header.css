@@ -1,0 +1,45 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+@import url('https://allfont.net/allfont.css?fonts=dosis-extrabold');
+
+/* maybe use sans-serif for large text such as links and headings */
+
+.nav{
+    background-color: #0e3150; 
+  }
+
+.nav-link {
+  color: #FFC0C2  !important;
+  font-size: 26px;
+  margin-left:50px;
+  font-family: 'Dosis ExtraBold', arial;
+
+}
+
+a.nav-link:hover:not(.user) {
+  background-color: #FFC0C2;
+  /* IE 9 */
+  transform: scale(1,1.1); /* Standard syntax */
+  color: #0e3150 !important;
+  /* height: 9.5vh !important; */
+}
+
+
+.hamburger {
+  background-color:#FFC0C2  !important;
+}
+
+.user:hover {
+  cursor: default !important ;
+}
+
+  
+  .logo-image{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+  }
+  
+
